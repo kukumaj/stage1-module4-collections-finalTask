@@ -29,6 +29,6 @@ class LengthNameComparator implements Comparator<String> {
         } else if (size1 > size2) {
             return -1;
         }
-        return 0;
+        return o2.compareTo(o1);
     }
 }
